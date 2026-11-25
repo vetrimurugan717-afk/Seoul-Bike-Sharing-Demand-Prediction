@@ -1,3 +1,5 @@
+import sklearn
+st.write("Scikit-learn version:", sklearn.__version__)
 import streamlit as st
 import pandas as pd
 import numpy as np
