@@ -1,5 +1,4 @@
 import sklearn
-st.write("Scikit-learn version:", sklearn.__version__)
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -19,7 +18,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # ==========================================
 # PAGE CONFIGURATION
 # ==========================================
-
+st.write("Scikit-learn version:", sklearn.__version__)
 st.set_page_config(
     page_title="Bike Sharing Analytics",
     page_icon="🚲",
